@@ -19,6 +19,8 @@
       "@typescript-eslint"
     ],
     "rules": {
-      "no-unused-vars": "off"
+      "no-unused-vars": "off",
+      "no-undef" : "warn" // prevent EventListenerOrEventListenerObject is not defined
+      // https://powerusers.microsoft.com/t5/Power-Apps-Pro-Dev-ISV/PCF-Component-Tutorial-issue/td-p/1907421
     }
 }
